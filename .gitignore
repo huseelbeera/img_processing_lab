@@ -1,0 +1,11 @@
+.venv/
+.imgvenv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
+images/
+*.jpg
+*.png
