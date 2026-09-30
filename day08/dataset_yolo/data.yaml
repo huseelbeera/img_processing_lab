@@ -1,0 +1,10 @@
+path: c:\Users\PC-LAB1\img_processing_lab\day08\dataset_yolo
+train: images/train
+val: images/val
+
+names:
+  0: pedestrian
+  1: people
+  2: car
+  3: van
+  4: truck

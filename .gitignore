@@ -13,3 +13,7 @@ videos/
 *.mp4
 data/
 *.pt
+*.avi
+*.AVI
+*.zip
+*.csv

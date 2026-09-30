@@ -1,0 +1,13 @@
+# BoT-SORT settings tuned for FPV/Analog Drone Video with Static/Noise Waves
+tracker_type: botsort
+track_high_thresh: 0.35
+track_low_thresh: 0.1
+new_track_thresh: 0.4
+track_buffer: 120        # Extended memory (5 seconds @ 25fps) to hold IDs across noise gaps
+match_thresh: 0.6        # Relaxed association threshold for motion matching after recovery
+# GMC (Grid Motion Compensation) settings
+gmc_method: sparseOptFlow
+# Re-ID settings
+with_reid: False
+proximity_thresh: 0.5
+appearance_thresh: 0.25
