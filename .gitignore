@@ -18,3 +18,7 @@ data/
 *.zip
 *.csv
 *.pdf
+*.dng
+*.arw
+*.rw2
+*.jp2
